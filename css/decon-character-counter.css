@@ -1,0 +1,77 @@
+/**
+ * decon-character-counter-css
+ *
+ * deconcc stylesheet.
+ *
+ * @package Decon_Character_Counter
+ * @since 0.0.3
+ */
+.post-php .decon-character-counter,
+.post-new-php .decon-character-counter,
+.profile-php .decon-character-counter {
+	font-size: 12px;
+	line-height: 1;
+	padding: 5px 10px 4px;
+	color: #444;
+}
+.post-php .decon-character-counter,
+.post-new-php .decon-character-counter {
+	border: 1px solid #e5e5e5;
+	background-color: #f7f7f7;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.post-php #titlediv #title,
+.post-new-php #titlediv #title {
+	margin-bottom: 0;
+}
+.post-php #postdivrich .decon-character-counter,
+.post-new-php #postdivrich .decon-character-counter {
+	padding-top: 0;
+	border-top: none;
+}
+.post-php #postexcerpt .decon-character-counter,
+.post-new-php #postexcerpt .decon-character-counter {
+	border: none;
+	border-top: 1px solid #e5e5e5;
+}
+.post-php table#post-status-info,
+.post-new-php table#post-status-info {
+	border-bottom: 0;
+}
+.profile-php #description {
+	margin-bottom: 2px !important;
+}
+.post-php .decon-character-counter .dcc-right,
+.post-new-php .decon-character-counter .dcc-right,
+.profile-php .decon-character-counter .dcc-right,
+.edit-php .decon-character-counter .dcc-right {
+	float: right;
+}
+.post-php .decon-character-counter .dcc-right i,
+.post-new-php .decon-character-counter .dcc-right i,
+.profile-php .decon-character-counter .dcc-left i {
+	color: #999;
+	font-style: normal;
+}
+.profile-php .decon-character-counter,
+.profile-php .decon-character-counter .dcc-left i {
+	padding: 0;
+	color: #aaa;
+}
+.edit-php .ptitle {
+	margin-bottom: 0;
+}
+
+
+/**
+ * Admin footer.
+ */
+#footer-left {
+}
+#footer-smile {
+	font-size: 16px;
+}
+#footer-upgrade {
+	text-align: right;
+}
